@@ -32,7 +32,7 @@ body {
 
 .navLogo {
 	bottom: -6px;
-	/*width: 60%;*/
+	width: 145px;
 	padding-bottom: 20px;
 	
 }
@@ -64,7 +64,7 @@ body {
 }
 
 .navbar-nav{
-	margin-left:15%;
+	margin-left:5%;
 
 
 }
@@ -78,15 +78,15 @@ body {
 	position: relative;
 	top: 20px;
 	right: px;
-	font-size: 3em;
+	font-size: 2em;
 }
 
 
 
 .bannerText {
-	bottom: 70%;
-    transform: translate(-80%, 0%);
-    left: 25%;
+	bottom: 80%;
+    transform: translate(-80%, -20%);
+    left: 20%;
     background: none repeat scroll 0 0 #FFffff;
     opacity: 0.6;
     margin: 0 auto;
@@ -524,6 +524,7 @@ aside {
 .filter { 
 	background-color: #323235;
 	padding: 5%;
+	padding-top: 0;
 	padding-bottom: 0;
 	/*color: black;*/
 	font-size: 1.4em;
@@ -585,7 +586,7 @@ aside {
 }
 
 .social > .first {
-	margin-left: 35%;
+	margin-left: 28%;
 }
 
 .fa {
@@ -606,6 +607,10 @@ ul > p {
 	margin-bottom: 0.5%;
 }
 
+.img-thumbnail:hover {
+	width: 100%;
+	cursor:pointer;
+}
 
 .cardTag {
 	color: black;
@@ -709,7 +714,9 @@ ul > p {
 	border-bottom-width: 4px;
 }
 
-
+.prodPic {
+	width: 100%;
+}
 
 /*.checkoutTable {
 	display: table;
@@ -774,21 +781,90 @@ footer {
 	padding: 0;
 }
 
-@media only screen and (min-width:321px) and (max-width:800px) {
+@media only screen and (min-width:321px) and (max-width:799px) {
 	img.logo {
-		width: 30%;
-		margin-left: 32%;
+		width: 80px;
+		margin-left: 25%;
 	}
 
 	.navlogo {
 		width: 10%;
 	}
 		
-	.h {
+	/*.h {
 		display: none;
+	}*/
+	
+	.first{
+		font-size: 1.5em;
 	}
 
+	.next{
+		font-size: 1em;
+		line-height: 2;
+	}
+
+	.collapse > .navbar-nav > li{
+		padding-right: 25%;
+		text-align: center;
+		font-size: 1.3em;
+		line-height: 3;
+	}
+
+	.navlogo{
+		width: 20%;
+	}
+
+	.navbar-toggle {
+    margin-top: 25px;
+   	}
+
+   	.subnav > li {
+   		padding: 0 21px;
+   	}
+	.w3-border {
+		border: none;
+	}
+	
+	.checkoutPrice {
+	margin-top: 0;
+	}
+
+	.sort{
+	margin-left: 20%;
+	}
+
+	.pagination {
+		margin-right: 30%;
+	}
+
+	.img-thumbnail {
+	margin-left: 5%;
+	width: 90%;
+	margin-top: 20%;
+	margin-bottom: 0.5%;
+	}
+
+	.card{
+		width: 90%;
+	}
+
+	.bannerText {
+	bottom: 20%;
+    transform: translate(-70%, 50%);
+    left: 25%;
+    background: none repeat scroll 0 0 #FFffff;
+    opacity: 0.5;
+    margin: 0 auto;
+    margin-top: -650px;
+    padding-bottom: 50px;
+    text-align:center;
+    width:100%;    
+    display: table-column;
+	}
 }
+
+
 
 
 
@@ -812,7 +888,7 @@ footer {
 
 	
 	.logo {
-	margin-left: 30%;
+	margin-left: 15%;
 	
 	}
 
@@ -834,14 +910,103 @@ footer {
     display: table-column;
 	}
 
+	.checkoutInfo {
+	padding-left: 50px;
+	padding-right: 50px;
+	}
 
+	.checkoutPrice {
+	margin-right: 45%;
+	}
+	
+	.checkPic {
+		margin-left: 4%;
+	}
 	
 }
 
-@media only screen and (max-width: 1100px) {
-
+@media only screen and (max-width: 1300px) {
+	.bannerText {
+	bottom: 20%;
+    transform: translate(-60%, 30%);
+    left: 25%;
+    background: none repeat scroll 0 0 #FFffff;
+    opacity: 0.5;
+    margin: 0 auto;
+    margin-top: -650px;
+    padding-bottom: 50px;
+    text-align:center;
+    width:30%;    
+    display: table-column;
+	}
 }
 
+@media only screen and (max-width: 1000px) {
+	.bannerText {
+	bottom: 20%;
+    transform: translate(-50%, 50%);
+    left: 25%;
+    background: none repeat scroll 0 0 #FFffff;
+    opacity: 0.5;
+    margin: 0 auto;
+    margin-top: -650px;
+    padding-bottom: 50px;
+    text-align:center;
+    width:30%;    
+    display: table-column;
+	}
+}
+
+
+@media only screen and (max-width: 900px) {
+	.bannerText {
+	bottom: 20%;
+    transform: translate(-60%, 60%);
+    left: 25%;
+    background: none repeat scroll 0 0 #FFffff;
+    opacity: 0.5;
+    margin: 0 auto;
+    margin-top: -650px;
+    padding-bottom: 50px;
+    text-align:center;
+    width:30%;    
+    display: table-column;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.bannerText {
+	bottom: 20%;
+    transform: translate(-60%, 60%);
+    left: 25%;
+    background: none repeat scroll 0 0 #FFffff;
+    opacity: 0.5;
+    margin: 0 auto;
+    margin-top: -650px;
+    padding-bottom: 50px;
+    text-align:center;
+    width:30%;    
+    display: table-column;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.bannerText {
+	bottom: 20%;
+    /*transform: translate(-60%, 130%);*/
+    left: 25%;
+    background: none repeat scroll 0 0 #FFffff;
+    opacity: 0.5;
+    margin: 0 auto;
+    margin-top: -650px;
+    padding-bottom: 50px;
+    text-align:center;
+    width:30%;    
+    display: table-column;
+	}
+}
+
+	
 
 
 
